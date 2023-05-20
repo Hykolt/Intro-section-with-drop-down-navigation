@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;800;900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  
+</head>
+<body>
+  <main id="overall">
+    <div class="normal-page"></div>
+
+    <div id="header">
+      <div>
+        <img src="/images/logo.svg" alt="">
+      </div>
+      <div id="hamburger-icon">
+        <div class="bars bar1"></div>
+        <div class="bars bar2"></div>
+        <div class="bars bar3"></div>
+      </div>
+    </div>
+
+    <div class="content-body">
+      <div id="hero-image">
+        <img src="images/image-hero-mobile.png" id="hero-img" alt="">
+      </div>
+      <div id="text-content">
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <div id="btn">
+          <button id="learn-more">Learn More</button>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <footer>
+      <div>
+        <img src="/images/client-databiz.svg" alt="" class="footer-img">
+      </div>
+      <div>
+        <img src="images/client-audiophile.svg" alt="" class="footer-img">
+      </div>
+      <div>
+        <img src="images/client-meet.svg" alt="" class="footer-img">
+      </div>
+      <div>
+        <img src="images/client-maker.svg" alt="" class="footer-img">
+      </div>
+    </footer>
+
+    <div class="hamburger-menu">
+      <div id="close-icon">
+        <div class="bars bar1"></div>
+        <div class="bars bar2"></div>
+      </div>
+
+      <div class="fcca">
+        <div class="fcca-child features">
+           <div id="feature-btn" class="acc-head">
+             Features <img src="/images/icon-arrow-down.svg" class="arrows" alt="">
+           </div>
+           <div class="features-content fcca-hidden">
+            <div class="tcrp">
+              <img src="/images/icon-todo.svg" alt=""> Todo list
+            </div>
+            <div class="tcrp">
+              <img src="/images/icon-calendar.svg" alt=""> Calendar
+            </div>
+            <div class="tcrp">
+              <img src="images/icon-reminders.svg" alt=""> Reminders
+            </div>
+            <div class="tcrp">
+              <img src="images/icon-planning.svg" alt=""> Planning
+            </div>
+           </div>
+        </div>
+        <div class="fcca-child company">
+          <div id="company-btn" class="acc-head">
+            Company <img src="/images/icon-arrow-down.svg" class="arrows" alt="">
+          </div>
+          <div class="company-content fcca-hidden">
+            <div class="cc-dropdown">History</div>
+            <div class="cc-dropdown">Our Team</div>
+            <div class="cc-dropdown">Blog</div>
+          </div>
+        </div>
+        <div class="fcca-child acc-head">
+          Careers
+        </div>
+        <div class="fcca-child acc-head">
+          About
+        </div>
+        
+        <div class="buttons">
+          <button class="login">Login</button>
+          <button class="register">Register</button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
